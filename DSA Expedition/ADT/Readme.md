@@ -3,9 +3,14 @@
 
 1. Primitive Data Types - int, float, double, char etc
 2. Derived Data Types - Arrays, Pointers, Structures etc.
-2. User-Defined Data Types - Structure, Union, Enumeration, classes etc
+3. User-Defined Data Types - Structure, Union, Enumeration, classes etc
 
-Abstraction is the idea of separating what something is from how it works, by separating interface from implementation
+<br>
+
+Abstraction is the idea of separating what something is from how it works, by separating interface from implementation. The concept of abstraction can be applied to data as well.
+
+<br>
+
 
 Now, 
     
