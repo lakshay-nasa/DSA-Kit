@@ -7,8 +7,8 @@ This repository contains my learnings of my Data Structure and Algorithms.
 - [x] <a href="https://github.com/lakshay-nasa/DSA-Kit/">Day 4</a>
 - [x] <a href="https://github.com/lakshay-nasa/DSA-Kit/">Day 5</a>
 - [x] <a href="https://github.com/lakshay-nasa/DSA-Kit/">Day 6</a>
-- [ ] <a href="https://github.com/lakshay-nasa/DSA-Kit/">Day 7</a>
-- [ ] <a href="https://github.com/lakshay-nasa/DSA-Kit/">Day 8</a>
+- [x] <a href="https://github.com/lakshay-nasa/DSA-Kit/">Day 7</a>
+- [x] <a href="https://github.com/lakshay-nasa/DSA-Kit/">Day 8</a>
 - [ ] <a href="https://github.com/lakshay-nasa/DSA-Kit/">Day 9</a>
 - [ ] <a href="https://github.com/lakshay-nasa/DSA-Kit/">Day 10</a>
 - [ ] <a href="https://github.com/lakshay-nasa/DSA-Kit/">Day 11</a>
