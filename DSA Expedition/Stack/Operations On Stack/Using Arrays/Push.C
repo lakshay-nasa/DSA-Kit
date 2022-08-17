@@ -51,6 +51,10 @@ int main()
     s->top = -1;
     s->arr = (int *)malloc(s->size * sizeof(int)); 
 
+    // Pushing an element
+    // s->arr[0] = 4;
+    // s->top++;
+
     // To check is stack is empty
     if (isEmpty(s))
     {
