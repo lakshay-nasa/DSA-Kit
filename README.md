@@ -11,8 +11,8 @@ This repository contains my learnings of my Data Structure and Algorithms.
 - [x] <a href="https://github.com/lakshay-nasa/DSA-Kit/tree/main/DSA%20Expedition/Linked%20List">Day 8</a>
 - [x] <a href="https://github.com/lakshay-nasa/DSA-Kit/tree/main/DSA%20Expedition/Stack">Day 9</a>
 - [x] <a href="https://github.com/lakshay-nasa/DSA-Kit/tree/main/DSA%20Expedition/Stack">Day 10</a>
-- [ ] <a href="https://github.com/lakshay-nasa/DSA-Kit/">Day 11</a>
-- [ ] <a href="https://github.com/lakshay-nasa/DSA-Kit/">Day 12</a>
+- [x] <a href="https://github.com/lakshay-nasa/DSA-Kit/tree/main/DSA%20Expedition/Stack/Operations%20On%20Stack/Using%20Linked%20List">Day 11</a>
+- [x] <a href="https://github.com/lakshay-nasa/DSA-Kit/">Day 12</a>
 - [ ] <a href="https://github.com/lakshay-nasa/DSA-Kit/">Day 13</a>
 - [ ] <a href="https://github.com/lakshay-nasa/DSA-Kit/">Day 14</a>
 - [ ] <a href="https://github.com/lakshay-nasa/DSA-Kit/">Day 15</a>
