@@ -50,13 +50,13 @@ int main(){
     display();
     deQueue();
 
-    enQueue(1); //This inserts 1 in Queue
-    enQueue(2); //This inserts 2 in Queue
+    enQueue(6); //This inserts 1 in Queue
+    enQueue(8); //This enqueue 2 in Queue
     enQueue(3); //This inserts 3 in Queue
     enQueue(4); //This inserts 4 in Queue
 
-    deQueue();  // This deletes first element from Queue i.e 1.
-    deQueue();  // This deletes first element from Queue i.e 2.
+    deQueue();  // This deletes first element from Queue i.e 6.
+    deQueue();  // This dequeue first element from Queue i.e 8.
 
     display();
 
