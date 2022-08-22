@@ -17,3 +17,14 @@ Queue follows FIFO(First-In-First-Out) rule.
 1. Arrays
 2. Linked Lis
 3. Using ADTs
+
+
+## Drawbacks Of Using Queue using Arrays
+1. Space is not used efficiently -> As the insertion in the queue is from the rear end and in the case of Linear Queue of fixed size insertion is not possible when rear reaches the end of the queue.
+
+So, we use Circlar Queue.
+
+# Circular Queue
+
+A circular queue is the extended version of a regular queue where the last element is connected to the first element. Thus forming a circle-like structure.
+
