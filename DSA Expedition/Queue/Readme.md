@@ -33,3 +33,37 @@ So, we use Circlar Queue.
 
 A circular queue is the extended version of a regular queue where the last element is connected to the first element. Thus forming a circle-like structure.
 
+<br>
+<br>
+
+# Double Ended Queue (DEQueue)
+
+A Double Ended Queue in C, also known as Deque, is a queue data structure in which insertion and deletion can be done from both left and right (front or the rear) ends.
+
+Thus, it does not follow FIFO rule (First In First Out).
+
+
+<img src="https://cdn.programiz.com/sites/tutorial2program/files/deque.png" alt="DEQueue">
+
+<br>
+<br>
+
+## Types Of DEQueue
+1. Input Restricted Deque
+
+In this deque, input is restricted at a single end but allows deletion at both the ends.
+
+2. Output Restricted Deque
+
+In this deque, output is restricted at a single end but allows insertion at both the ends.
+
+## Operation On DEQueue
+
+1. isEmpty
+2. isFull
+3. Initialize()
+4. display()
+5. enQueueFront()
+6. enQueueRear()
+7. deQueueFront()
+8. deQueueRear()
