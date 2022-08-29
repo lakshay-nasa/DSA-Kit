@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-
-void printArray(int* array, int size)
+void printArray(int *array, int size)
 {
     for (int i = 0; i < size; ++i)
     {
@@ -10,23 +9,26 @@ void printArray(int* array, int size)
     printf("\n");
 }
 
-void insertionSort(int *array, int size){
+void insertionSort(int *array, int size)
+{
     int key, j;
     // Loop or passes
-    for(int i=1; i <= size - 1; i++)
+    for (int i = 1; i <= size - 1; i++)
     {
         key = array[i];
-        j = i-1;
+        j = i - 1;
         // For descending order, change array[j] > key to array[j] < key.
-        while(j>=0 && array[j] > key){
-            array[j+1] = array[j];
+        while (j >= 0 && array[j] > key)
+        {
+            array[j + 1] = array[j];
             j--; // --j
         }
-        array[j+1] = key;
+        array[j + 1] = key;
     }
 }
 
-int main(){
+int main()
+{
 
     int myData[] = {5, 4, 3, 2, 0, 12};
     // int n = 6;

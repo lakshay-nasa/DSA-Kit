@@ -62,7 +62,7 @@ void AdaptiveBubbleSort(int array[], int size)
 
             if (isSorted)
             {
-                return;     // we used 'return' to terminate complete function.
+                return; // we used 'return' to terminate complete function.
             }
         }
     }
