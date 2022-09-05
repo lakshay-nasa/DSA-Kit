@@ -18,8 +18,8 @@ struct node* createNode(int data){
 
 int main(){
 
-    struct node*p = createNode(2);
-    struct node*p1 = createNode(2);
+    struct node*p = createNode(4);
+    struct node*p1 = createNode(6);
     struct node*p2 = createNode(2);
 
     p->left = p1;
