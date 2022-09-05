@@ -27,17 +27,17 @@ void PreOrder(struct node* root){
 
 void PostOrder(struct node* root){
     if(root!=NULL){
-        PreOrder(root->left);
-        PreOrder(root->right);
+        PostOrder(root->left);
+        PostOrder(root->right);
         printf("%d ", root->data);
     }
 }
 
 void InOrder(struct node* root){
     if(root!=NULL){
-        PreOrder(root->left);
+        InOrder(root->left);
         printf("%d ", root->data);
-        PreOrder(root->right);
+        InOrder(root->right);
     }
 }
 
@@ -63,9 +63,9 @@ int main(){
 
     PreOrder(p);        // Output -> 4 6 1 9 2
     printf("\n");
-    PostOrder(p);       // Output ->  6 1 9 2 4
+    PostOrder(p);       // Output ->  1 9 6 2 4
     printf("\n");
-    InOrder(p);         // Output ->  6 1 9 4 2
+    InOrder(p);         // Output ->  1 6 9 4 2
 
     return 0;
 }
