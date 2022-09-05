@@ -24,6 +24,15 @@ void PreOrder(struct node* root){
     }
 }
 
+
+void PostOrder(struct node* root){
+    if(root!=NULL){
+        PreOrder(root->left);
+        PreOrder(root->right);
+        printf("%d ", root->data);
+    }
+}
+
 int main(){
 
     struct node*p = createNode(4);
@@ -44,7 +53,9 @@ int main(){
     p1->left = p3;
     p1->right = p4;
 
-    PreOrder(p);
+    PreOrder(p);    // Output -> 4 6 1 9 2
+    printf("\n");
+    PostOrder(p);    // Output ->  6 1 9 2 4
 
     return 0;
 }
