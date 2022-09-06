@@ -25,7 +25,8 @@ void Insert(struct node* root, int key){
     {
         prev = root;
         if (key == root->data){
-            printf("Key already exist. Insertion not possible.");
+            printf("%d already exist. Insertion not possible.", key);
+            return;
         }
 
         else if(key<root->data){
