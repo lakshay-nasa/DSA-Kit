@@ -16,22 +16,6 @@ struct node* createNode(int data){
     return n;
 }
 
-void PreOrder(struct node* root){
-    if(root!=NULL){
-        printf("%d ", root->data);
-        PreOrder(root->left);
-        PreOrder(root->right);
-    }
-}
-
-
-void PostOrder(struct node* root){
-    if(root!=NULL){
-        PostOrder(root->left);
-        PostOrder(root->right);
-        printf("%d ", root->data);
-    }
-}
 
 void InOrder(struct node* root){
     if(root!=NULL){
@@ -41,8 +25,19 @@ void InOrder(struct node* root){
     }
 }
 
+// Note -> If InOrder Traversal in Ascending order than it is BST.
+
 int isBST(struct node* root){
+    static struct node *prev = NULL;
     if(root!=NULL){
+        if(!isBST(root->left)){
+            return 0;                   // If not BST
+        }
+        if(prev!=NULL && root->data <= prev->data){
+            return 0;                   // If not BST
+        }
+        prev = root;
+        return isBST(root->right);
 
     }
 
@@ -72,11 +67,8 @@ int main(){
     p1->left = p3;
     p1->right = p4;
 
-    PreOrder(p);        // Output -> 4 6 1 9 2
-    printf("\n");
-    PostOrder(p);       // Output ->  1 9 6 2 4
-    printf("\n");
-    InOrder(p);         // Output ->  1 6 9 4 2
+    InOrder(p);                 // Output ->  1 6 9 4 2
+    printf("\n%d", isBST(p));   // Output ->  1 (If BST) 0(If not a BST)  
 
     return 0;
 }
