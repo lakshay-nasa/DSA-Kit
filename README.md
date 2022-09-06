@@ -21,7 +21,7 @@ This repository contains my learnings of my Data Structure and Algorithms.
 - [x] <a href="https://github.com/lakshay-nasa/DSA-Kit/tree/main/DSA%20Expedition/Algorithms">Day 18</a>
 - [x] <a href="https://github.com/lakshay-nasa/DSA-Kit/">Day 19</a>
 - [x] <a href="https://github.com/lakshay-nasa/DSA-Kit/">Day 20</a>
-- [ ] <a href="https://github.com/lakshay-nasa/DSA-Kit/">Day 21</a>
+- [x] <a href="https://github.com/lakshay-nasa/DSA-Kit/">Day 21</a>
 - [ ] <a href="https://github.com/lakshay-nasa/DSA-Kit/">Day 22</a>
 - [ ] <a href="https://github.com/lakshay-nasa/DSA-Kit/">Day 23</a>
 - [ ] <a href="https://github.com/lakshay-nasa/DSA-Kit/">Day 24</a>
