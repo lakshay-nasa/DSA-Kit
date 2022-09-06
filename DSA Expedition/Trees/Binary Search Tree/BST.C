@@ -68,7 +68,10 @@ int main(){
     p1->right = p4;
 
     InOrder(p);                 // Output ->  1 6 9 4 2
-    printf("\n%d", isBST(p));   // Output ->  1 (If BST) 0(If not a BST)  
+    // printf("\n%d\n", isBST(p));   // Output ->  1 (If BST) 0(If not a BST)  
+    if(isBST(p)){
+        printf("Yes, this is BST.");
+    }
 
     return 0;
 }
