@@ -81,6 +81,7 @@ struct node *Insert(struct node *n, int key)
     int bf = getBalanceFactor(n);
 
     // LL Case
+    if(bf>)
     // RR Case
     // LR Case
     // RL Case
