@@ -55,7 +55,8 @@ int main()
     struct node *p1 = createNode(5);
     struct node *p2 = createNode(12);
     struct node *p3 = createNode(1);
-    struct node *p4 = createNode(18);
+    struct node *p4 = createNode(7);
+    struct node *p5 = createNode(18);
 
     // Tree Looks Like -->
     //        9
@@ -68,6 +69,7 @@ int main()
     p->right = p2;
     p1->left = p3;
     p1->right = p4;
+    p2->right = p5;
 
     Insert(p, 10);
     printf("%d", p->right->left->data);
