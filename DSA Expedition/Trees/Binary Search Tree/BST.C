@@ -54,18 +54,21 @@ int main(){
     struct node*p2 = createNode(10);
     struct node*p3 = createNode(1);
     struct node*p4 = createNode(7);
+    struct node*p5 = createNode(12);
 
     // Tree Looks Like --> 
     //        9
     //       / \
     //      5   10
-    //     / \    
-    //    1   7    
+    //     / \    \
+    //    1   7    12 
 
     p->left = p1;
     p->right = p2;
     p1->left = p3;
     p1->right = p4;
+    p2->right = p5;
+
 
     InOrder(p);                 // Output ->  1 6 9 4 2
     // printf("\n%d\n", isBST(p));   // Output ->  1 (If BST) 0(If not a BST)  
